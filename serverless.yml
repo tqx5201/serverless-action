@@ -1,8 +1,8 @@
 service:
     name: deploy-worker-github-action
     config:
-      accountId: ${env:CLOUDFLARE_ACCOUNT_ID}
-      zoneId: ${env:CLOUDFLARE_ZONE_ID}
+      accountId: e0e0323ad86f07e674d7e74991733f0e
+      zoneId: f356570df549a8058f82d0edac7257fe
 
 provider:
   name: cloudflare
@@ -12,5 +12,5 @@ plugins:
   
 functions:
   worker-deploy:
-    name: ${env:CLOUDFLARE_SCRIPT_NAME}
-    script: ${env:CLOUDFLARE_SCRIPT_NAME} 
+    name: epg
+    script: test.js

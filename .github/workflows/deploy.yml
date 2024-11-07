@@ -31,6 +31,6 @@ jobs:
     - name: Publish to Cloudflare Workers
       uses: cloudflare/wrangler-action@1.3.0
       with:
-        apiToken: rlfUpmp_shNIZ-0Zo84z458nxQyrmpIdwEHSuooY
+        apiKey: rlfUpmp_shNIZ-0Zo84z458nxQyrmpIdwEHSuooY
         accountId: e0e0323ad86f07e674d7e74991733f0e
         command: publish

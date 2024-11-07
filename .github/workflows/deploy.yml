@@ -27,7 +27,7 @@ jobs:
       run: npm run build
 
     - name: Publish to Cloudflare Workers
-      uses: cloudflare/wrangler-action@v1
+      uses: cloudflare/wrangler-action@v3
       with:
         apiToken: rlfUpmp_shNIZ-0Zo84z458nxQyrmpIdwEHSuooY
         accountId: e0e0323ad86f07e674d7e74991733f0e

@@ -1,0 +1,6 @@
+name = "epg"
+type = "javascript"
+account_id = "e0e0323ad86f07e674d7e74991733f0e"
+workers_dev = true
+route = ""
+zone_id = "f356570df549a8058f82d0edac7257fe"

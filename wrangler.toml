@@ -1,7 +1,7 @@
 name = "epg"
 type = "javascript"
 account_id = "e0e0323ad86f07e674d7e74991733f0e"
-CLOUDFLARE_API_TOKEN = "rlfUpmp_shNIZ-0Zo84z458nxQyrmpIdwEHSuooY"
+api_token = "iuSuGjPW41MP52ZpxlyY6ABSSbWbAGvIfuhTP91K"
 workers_dev = true
 main = "index.js"
 # 如果您有自定义的构建命令，可以添加 build 字段

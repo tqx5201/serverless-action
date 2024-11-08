@@ -12,9 +12,9 @@ jobs:
       - uses: actions/checkout@v2
       - name: Install Wrangler
         run: npm install -g @cloudflare/wrangler
+      
       - name: Configure Wrangler
-        env:
-          CF_API_TOKEN: rlfUpmp_shNIZ-0Zo84z458nxQyrmpIdwEHSuooY
-        run: wrangler config --api-token $CF_API_TOKEN
+        run: wrangler config --api-token 'rlfUpmp_shNIZ-0Zo84z458nxQyrmpIdwEHSuooY'
+      
       - name: Publish Worker
         run: wrangler publish

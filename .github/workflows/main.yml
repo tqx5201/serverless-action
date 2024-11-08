@@ -15,7 +15,7 @@ jobs:
         run: npm install -g wrangler
       
       - name: Configure Wrangler
-        run: wrangler config --api-token rlfUpmp_shNIZ-0Zo84z458nxQyrmpIdwEHSuooY
+        run: wrangler -c wrangler.toml
       
       - name: Publish Worker
         run: wrangler publish

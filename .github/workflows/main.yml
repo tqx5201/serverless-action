@@ -11,7 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Install Wrangler
-        run: npm install -g @cloudflare/wrangler
+        #run: npm install -g @cloudflare/wrangler
+        run: npm install -g wrangler
       
       - name: Configure Wrangler
         run: wrangler config --api-key rlfUpmp_shNIZ-0Zo84z458nxQyrmpIdwEHSuooY

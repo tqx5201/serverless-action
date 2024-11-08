@@ -13,4 +13,4 @@ plugins:
 functions:
   worker-deploy:
     name: epg
-    script: test.js
+    script: index.js

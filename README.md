@@ -1,5 +1,7 @@
 <b> Github Action to Deploy a Cloudflare Worker with the Serverless Framework </b>
 
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/YOURUSERNAME/YOURREPO)
+
 If you are new to GitHub actions please see the official guide [here](https://help.github.com/articles/creating-a-workflow-with-github-actions/).
 
 To use this action you must provide a Worker script (i.e. `worker-script.js`) in your repo attached to this action as well as the appropriate environmental variables.
